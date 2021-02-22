@@ -10,12 +10,13 @@ require_once '../includes/load.php';
 if ($session->isUserLoggedIn()) { redirect('../users/home.php', false);}
 ?>
 <head>
-	<title>Login Form</title>
+	<title>Sistem Menejemen Inventori</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<?php echo display_msg($msg); ?>
 <body>
 	<img class="wave" src="img/wave.png">
 	<div class="container">
@@ -32,7 +33,7 @@ if ($session->isUserLoggedIn()) { redirect('../users/home.php', false);}
            		   </div>
            		   <div class="div">
            		   		<h5>Username</h5>
-           		   		<input type="text" class="input" value="<?php echo $username;?>">
+           		   		<input type="name" class="input" name="username" value="<?php echo $username;?>">
            		   </div>
            		</div>
            		<div class="input-div pass">
@@ -41,7 +42,7 @@ if ($session->isUserLoggedIn()) { redirect('../users/home.php', false);}
            		   </div>
            		   <div class="div">
            		    	<h5>Password</h5>
-           		    	<input type="password" class="input" value="<?php echo $password;?>">
+           		    	<input type="password" class="input" name="password" value="<?php echo $password;?>">
             	   </div>
             	</div>
             	<a href="#">Forgot Password?</a>
