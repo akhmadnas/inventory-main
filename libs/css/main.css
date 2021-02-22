@@ -190,7 +190,7 @@ body{
   letter-spacing: 1.5px;
   text-shadow: 0 1px rgba(0,0,0, 1);
 }.sidebar ul li a i{
-  background-image: linear-gradient(to right, #0D98D7, #0BACF5, #0D98D7);
+  color: red;
   padding: 15px 22px;
   text-align: center;
 }ul.submenu{
