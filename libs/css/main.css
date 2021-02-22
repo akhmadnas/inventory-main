@@ -190,14 +190,14 @@ body{
   letter-spacing: 1.5px;
   text-shadow: 0 1px rgba(0,0,0, 1);
 }.sidebar ul li a i{
-  color: #0D98D7;
+  background-image: linear-gradient(to right, #0D98D7, #0BACF5, #0D98D7);
   padding: 15px 22px;
   text-align: center;
 }ul.submenu{
   display: none;
   position: relative;
 }ul.submenu li a:hover{
-  background-color: #0C78A8;
+  background-color:#0D98D7;
 }ul.submenu li a {
   padding-left: 45px;
 }ul.submenu li:before{
