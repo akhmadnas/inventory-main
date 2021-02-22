@@ -10,7 +10,7 @@ require_once '../includes/load.php';
 if ($session->isUserLoggedIn()) { redirect('../users/home.php', false);}
 ?>
 <head>
-	<title>Sistem Menejemen Inventori</title>
+	<title>Login|Sistem Menejemen Inventori</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
@@ -26,7 +26,7 @@ if ($session->isUserLoggedIn()) { redirect('../users/home.php', false);}
 		<div class="login-content">
 			<form method="post" action="../users/auth.php" class="clearfix">
 				<img src="img/avatar.svg">
-				<h2 class="title">Welcome</h2>
+				<h2 class="title">Member Log in</h2>
            		<div class="input-div one">
            		   <div class="i">
            		   		<i class="fas fa-user"></i>
