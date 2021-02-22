@@ -160,7 +160,7 @@ body{
   padding: 65px 0 0;
   height: 100%;
   width: 250px;
-  background: #FFFFFF;
+  background: #0D98D7;
   border-right: 1px solid #ddd;
   text-align: center;
 }.sidebar ul li:hover,.submenu ul li:hover{
@@ -173,11 +173,11 @@ body{
 }.sidebar ul li {
   display: block;
 }.sidebar ul li:hover,ul.submenu{
-  background-color:#0D98D7;
+  background-color:#ffffff;
 }.sidebar ul li a:hover {
-  color: red;
+  color: white;
 }.sidebar ul li a,ul.submenu li a {
-  color: #aeb2b7;
+  color: #0E0E0E;
   display: block;
   overflow: hidden;
   position: relative;
