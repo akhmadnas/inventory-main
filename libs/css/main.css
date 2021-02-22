@@ -173,7 +173,7 @@ body{
 }.sidebar ul li {
   display: block;
 }.sidebar ul li:hover,ul.submenu{
-  background-color:#35404d;
+  background-color:#FFFFFF;
 }.sidebar ul li a:hover {
   color: white;
 }.sidebar ul li a,ul.submenu li a {
